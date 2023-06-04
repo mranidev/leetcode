@@ -11,8 +11,9 @@ Define a class called ListNode to represent a node in the linked list. Each node
 
 Implement the addTwoNumbers function, which takes two linked lists ($l1 and $l2) as input and returns the sum as a new linked list.
 
-function addTwoNumbers($l1, $l2) {
-    
+
+
+
     $dummy = new ListNode(0); // Dummy node to track the head of the result linked list
     
     $current = $dummy; // Pointer to the current node in the result linked list
@@ -44,4 +45,3 @@ function addTwoNumbers($l1, $l2) {
     }
 
     return $dummy->next; // Return the head of the result linked list (excluding the dummy node)
-}
