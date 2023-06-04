@@ -7,7 +7,7 @@ Define a class called ListNode to represent a node in the linked list. Each node
     public function __construct($val = 0, $next = null) {
         $this->val = $val;
         $this->next = $next;
-
+    }
 
 Implement the addTwoNumbers function, which takes two linked lists ($l1 and $l2) as input and returns the sum as a new linked list.
 
